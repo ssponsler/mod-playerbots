@@ -82,8 +82,8 @@ AiPlayerbot.Enabled = 1
 AiPlayerbot.RandomBotAutologin = 1
 
 # Random bot count
-AiPlayerbot.MinRandomBots = 50
-AiPlayerbot.MaxRandomBots = 50
+AiPlayerbot.MinRandomBots = 1000
+AiPlayerbot.MaxRandomBots = 1000
 
 # Random bot accounts
 # If you are not using any expansion at all, you may have to set this manually, then
@@ -92,7 +92,7 @@ AiPlayerbot.MaxRandomBots = 50
 AiPlayerbot.RandomBotAccountCount = 0
 
 # Delete all random bot accounts (reset randombots)
-AiPlayerbot.DeleteRandomBotAccounts = 0
+AiPlayerbot.DeleteRandomBotAccounts = 1
 
 ###################################################################################################
 
@@ -145,7 +145,7 @@ AiPlayerbot.RandomBotGuildNearby = 0
 AiPlayerbot.RandomBotInvitePlayer = 0
 
 # Bots will chat in say/guild when they invite other bots to groups/raids/guilds
-AiPlayerbot.InviteChat = 0
+AiPlayerbot.InviteChat = 1
 
 # Bots will be summoned to player when accept group invitation
 AiPlayerbot.SummonWhenGroup = 1
@@ -510,7 +510,7 @@ AiPlayerbot.RandomBotRandomPassword = 0
 AiPlayerbot.RandomBotAccountPrefix = "rndbot"
 
 AiPlayerbot.RandomBotMinLevel = 1
-AiPlayerbot.RandomBotMaxLevel = 80
+AiPlayerbot.RandomBotMaxLevel = 1
 
 # Sync max random bot level with max level of online players
 # Default: 0 (disabled)
@@ -537,7 +537,7 @@ AiPlayerbot.RandomBotAllianceRatio = 50
 AiPlayerbot.RandomBotHordeRatio = 50
 
 # Disable death knight for bots login
-AiPlayerbot.DisableDeathKnightLogin = 0
+AiPlayerbot.DisableDeathKnightLogin = 1
 
 # Enable expansion limitation for talents and glyphs - ie: level <= 60 bot only uses talents
 # available in vanilla, level <= 70 bot only uses talents available in TBC)
@@ -679,7 +679,7 @@ AiPlayerbot.botActiveAloneSmartScaleWhenMaxLevel = 80
 AiPlayerbot.RandomBotQuestIds = "7848,3802,5505,6502,7761,10277,10285,11492,24499,24511,24710,24712"
 
 # Randombots will group with nearby bots to do shared quests
-AiPlayerbot.RandomBotGroupNearby = 0
+AiPlayerbot.RandomBotGroupNearby = 1
 
 # Random Bots will pick quests on their own and try to complete
 # Default: 1 (enabled)
@@ -688,7 +688,7 @@ AiPlayerbot.AutoDoQuests = 1
 # Random Bots will behave more like real players (exprimental)
 # This option will override AutoDoQuests
 # Default: 0 (disabled)
-AiPlayerbot.EnableNewRpgStrategy = 0
+AiPlayerbot.EnableNewRpgStrategy = 1
 
 # Quest items to leave (do not destroy)
 AiPlayerbot.RandomBotQuestItems = "6948,5175,5176,5177,5178,16309,12382,13704,11000"
